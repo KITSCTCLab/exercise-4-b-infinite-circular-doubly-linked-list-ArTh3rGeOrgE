@@ -4,8 +4,9 @@ length_of_circular_linked_list = int(input())
 circular_linked_list = list(map(int,input().strip().split(" ")))
 # Write your code here
 Original_List = []
+
 count = 0
-while len(Original_list) < length_of_circular_linked_list and count < len(circular_linked_list)
+while len(Original_list) < length_of_circular_linked_list and count < len(circular_linked_list):
   ele = circular_linked_list[count]
   if ele not in Orignal_list:
     Original_list.append(ele)
